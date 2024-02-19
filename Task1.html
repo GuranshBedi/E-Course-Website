@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Task1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="page1">
+      <div id="Navbar">
+        <h2 id="Heading">BrandName</h2>
+        <a class="links">Home</a>
+        <a class="links">Product</a>
+        <a class="links">Pricing</a>
+        <a class="links">Contact</a>
+        <a class="links" id="login">Login</a>
+        <button id="btn">Join Us →</button>
+      </div>
+      <nav>
+        <div class="text">
+          <h1 class="head">HIGH QUALITY<br />COURSES</h1>
+          <p class="para">
+            Every day brings with it a fresh set of learning <br />possiblities
+          </p>
+        </div>
+        <div id="btns">
+          <button id="button1">Get Quote Now</button>
+          <button id="button2">Learn More</button>
+        </div>
+      </nav>
+    </div>
+    <div id="page2">
+      <p style="color: #8d5cf6">Practice advice</p>
+      <h1 style="color: white">Our Experts Teacher</h1>
+      <p class="physics">
+        Problems trying to resolve conflicts between <br />the two major relams
+        of Classical Physics: Newtonian Mechanics
+      </p>
+    </div>
+    <div id="boxes">
+      <div class="Library">
+        <img
+          class="icon1"
+          src="https://media.istockphoto.com/id/1270643414/vector/white-presentation-board-with-graph-schedule-chart-diagram-infographic-pie-graph-icon.jpg?s=612x612&w=0&k=20&c=gzua1RQyf-Wa4TVGfnYAha7hF_ts68o85v0DAvw9Xyk="
+        />
+        <p style="font-weight: bold; margin-left: 10px">Books Library</p>
+        <span class="red"></span>
+        <p class="Lib-text">
+          The gradual<br />accumaltion of <br />
+          information about
+        </p>
+      </div>
+      <div class="Library">
+        <img
+          class="icon1"
+          src="data:image/png;base64,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"
+        />
+        <p style="font-weight: bold; margin-left: 10px">Certified Teacher</p>
+        <span class="red"></span>
+        <p class="Lib-text">
+          The gradual<br />accumaltion of <br />
+          information about
+        </p>
+      </div>
+      <div class="Library">
+        <img
+          class="icon1"
+          src="data:image/png;base64,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"
+        />
+        <p style="font-weight: bold; margin-left: 10px">Training Courses</p>
+        <span class="red"></span>
+        <p class="Lib-text">
+          The gradual<br />information about <br />atomic behaviour
+        </p>
+      </div>
+      <div class="Library">
+        <img
+          class="icon1"
+          src="data:image/png;base64,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"
+        />
+        <p style="font-weight: bold; margin-left: 10px">6,969 Online Courses</p>
+        <span class="red"></span>
+        <p class="Lib-text">
+          The gradual<br />accumaltion of <br />
+          information about
+        </p>
+      </div>
+    </div>
+    <div id="page2">
+      <p style="color: #8d5cf6">Courses</p>
+      <h1 style="color: white">Get Quality Education</h1>
+      <p class="physics">
+        Problems trying to resolve conflicts between <br />the two major relams
+        of Classical Physics: Newtonian Mechanics
+      </p>
+    </div>
+    <div id="boxes">
+      <div class="inner-box">
+        <div class="imageicons">
+          <img class="lib-pic" src="lib-pic.jpg" alt="" />
+          <div class="sale-icon">Sale</div>
+          <div class="icons">
+            <div class="like-icon">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+            <div id="cart-icon">
+              <i class="fa fa-shopping-cart" style="font-size: 15px"></i>
+            </div>
+            <div id="eye-icon"><i class="fa fa-eye"></i></div>
+          </div>
+        </div>
+        <p style="color: #8d5cf6; margin-left: 10px; font-weight: bold">
+          Welcome
+        </p>
+        <p style="font-weight: bold; margin-left: 10px">Books Library</p>
+        <p style="color: darkgray; margin-left: 10px">
+          The gradual<br />accumaltion of <br />
+          information about
+        </p>
+        <p style="color: #737373; margin-left: 10px">↓ 15 Sales</p>
+        <div class="prices">
+          <p style="color: darkgray; margin-left: 10px">$4.20</p>
+          <p style="color: darkorange">$1.99</p>
+        </div>
+        <button class="box-btn">Learn More ></button>
+      </div>
+      <div class="inner-box">
+        <div class="imageicons">
+          <img class="lib-pic" src="lib-pic.jpg" alt="" />
+          <div class="sale-icon">Sale</div>
+          <div class="icons">
+            <div class="like-icon">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+            <div id="cart-icon">
+              <i class="fa fa-shopping-cart" style="font-size: 15px"></i>
+            </div>
+            <div id="eye-icon"><i class="fa fa-eye"></i></div>
+          </div>
+        </div>
+        <p style="color: #8d5cf6; margin-left: 10px; font-weight: bold">
+          Join Us
+        </p>
+        <p style="font-weight: bold; margin-left: 10px">Books Library</p>
+        <p style="color: darkgray; margin-left: 10px">
+          The gradual<br />accumaltion of <br />
+          information about
+        </p>
+        <p style="color: #737373; margin-left: 10px">↓ 15 Sales</p>
+        <div class="prices">
+          <p style="color: darkgray; margin-left: 10px">$4.20</p>
+          <p style="color: darkorange">$1.99</p>
+        </div>
+        <button class="box-btn">Learn More ></button>
+      </div>
+      <div class="inner-box">
+        <div class="imageicons">
+          <img class="lib-pic" src="lib-pic.jpg" alt="" />
+          <div class="sale-icon">Sale</div>
+          <div class="icons">
+            <div class="like-icon">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+            <div id="cart-icon">
+              <i class="fa fa-shopping-cart" style="font-size: 15px"></i>
+            </div>
+            <div id="eye-icon"><i class="fa fa-eye"></i></div>
+          </div>
+        </div>
+        <p style="color: #8d5cf6; margin-left: 10px; font-weight: bold">
+          For Better Future
+        </p>
+        <p style="font-weight: bold; margin-left: 10px">Training Courses</p>
+        <p style="color: darkgray; margin-left: 10px">
+          The gradual<br />accumaltion of <br />
+          information about
+        </p>
+        <p style="color: #737373; margin-left: 10px">↓ 15 Sales</p>
+        <div class="prices">
+          <p style="color: darkgray; margin-left: 10px">$4.20</p>
+          <p style="color: darkorange">$1.99</p>
+        </div>
+        <button class="box-btn">Learn More ></button>
+      </div>
+      <div class="inner-box">
+        <div class="imageicons">
+          <img class="lib-pic" src="lib-pic.jpg" alt="" />
+          <div class="sale-icon">Sale</div>
+          <div class="icons">
+            <div class="like-icon">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+            <div id="cart-icon">
+              <i class="fa fa-shopping-cart" style="font-size: 15px"></i>
+            </div>
+            <div id="eye-icon"><i class="fa fa-eye"></i></div>
+          </div>
+        </div>
+        <p style="color: #8d5cf6; margin-left: 10px; font-weight: bold">
+          Welcome
+        </p>
+        <p style="font-weight: bold; margin-left: 10px">Books Library</p>
+        <p style="color: darkgray; margin-left: 10px">
+          The gradual<br />accumaltion of <br />
+          information about
+        </p>
+        <p style="color: #737373; margin-left: 10px">↓ 15 Sales</p>
+        <div class="prices">
+          <p style="color: darkgray; margin-left: 10px">$4.20</p>
+          <p style="color: darkorange">$1.99</p>
+        </div>
+        <button class="box-btn">Learn More ></button>
+      </div>
+    </div>
+    <div id="page3">
+      <img class="Girl-student" src="Girl student.png" alt="" />
+      <div class="girl">
+        <span class="red-line"></span>
+        <h1 style="color: white; font-size: 50px">
+          Our Experts <br />
+          Teacher
+        </h1>
+        <p class="physics">
+          Problems trying to resolve conflicts between <br />the two major
+          relams of Classical Physics: <br />
+          Newtonian Mechanics
+        </p>
+        <a href="#" class="learn-link">Learn More ></a>
+      </div>
+    </div>
+    <div id="page3">
+      <div class="girl">
+        <span class="red-line"></span>
+        <h1 style="color: white; font-size: 50px">
+          Our Experts <br />
+          Teacher
+        </h1>
+        <p class="physics">
+          Problems trying to resolve conflicts between <br />the two major
+          relams of Classical Physics: <br />
+          Newtonian Mechanics
+        </p>
+        <a href="#" class="learn-link">Learn More ></a>
+      </div>
+      <div class="Girl-student">
+        <video class="vid" width="500px" height="300px" controls>
+          <source src="Video.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    <div id="page2">
+      <p style="color: #8d5cf6">Testimonials</p>
+      <h1 style="color: white">Most Popular Courses</h1>
+      <p class="physics">
+        Problems trying to resolve conflicts between <br />the two major relams
+        of Classical Physics: Newtonian Mechanics
+      </p>
+    </div>
+    <div id="boxes">
+      <div class="test-box">
+        <img class="person-pic" src="Person1.png" alt="" />
+        <p style="color: darkgray; margin-left: 10px">
+          Slate helps you see how many more days<br />
+          you need to work to reach your financial <br />
+          goal for the month and year.
+        </p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <p style="font-weight: bold; margin-left: 10px">Regina Miles</p>
+        <p style="color: darkgray; margin-left: 10px">Designer</p>
+      </div>
+      <div class="test-box">
+        <img class="person-pic" src="Person1.png" alt="" />
+        <p style="color: darkgray; margin-left: 10px">
+          Slate helps you see how many more days<br />
+          you need to work to reach your financial <br />
+          goal for the month and year.
+        </p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p style="font-weight: bold; margin-left: 10px">Regina Miles</p>
+        <p style="color: darkgray; margin-left: 10px">Designer</p>
+      </div>
+    </div>
+    <div id="page2">
+      <p style="color: #8d5cf6">Team</p>
+      <h1 style="color: white">Our Experts Teacher</h1>
+      <p class="physics">
+        Problems trying to resolve conflicts between <br />the two major relams
+        of Classical Physics: Newtonian Mechanics
+      </p>
+    </div>
+    <div id="boxes">
+      <div class="team-prof">
+        <img class="team1-pic" src="team1.png" alt="" />
+        <p style="font-weight: bold; margin-left: 10px">Julian Jameson</p>
+        <p style="color: darkgray; margin-left: 10px">Profession</p>
+        <div class="socials">
+          <a style="margin-right: 10px" class="fa fa-facebook"></a>
+          <a style="margin-right: 10px" class="fa fa-instagram"></a>
+          <a class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="team-prof">
+        <img class="team1-pic" src="team1.png" alt="" />
+        <p style="font-weight: bold; margin-left: 10px">Julian Jameson</p>
+        <p style="color: darkgray; margin-left: 10px">Profession</p>
+        <div class="socials">
+          <a style="margin-right: 10px" class="fa fa-facebook"></a>
+          <a style="margin-right: 10px" class="fa fa-instagram"></a>
+          <a class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="team-prof">
+        <img class="team1-pic" src="team1.png" alt="" />
+        <p style="font-weight: bold; margin-left: 10px">Julian Jameson</p>
+        <p style="color: darkgray; margin-left: 10px">Profession</p>
+        <div class="socials">
+          <a style="margin-right: 10px" class="fa fa-facebook"></a>
+          <a style="margin-right: 10px" class="fa fa-instagram"></a>
+          <a class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="team-prof">
+        <img class="team1-pic" src="team1.png" alt="" />
+        <p style="font-weight: bold; margin-left: 10px">Julian Jameson</p>
+        <p style="color: darkgray; margin-left: 10px">Profession</p>
+        <div class="socials">
+          <a style="margin-right: 10px" class="fa fa-facebook"></a>
+          <a style="margin-right: 10px" class="fa fa-instagram"></a>
+          <a class="fa fa-twitter"></a>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <p style="color: #8d5cf6">Newsletter</p>
+      <h1 style="color: white">Get Quality Education</h1>
+      <p class="end">
+        Problems trying to resolve conflicts between <br />the two major relams
+        of Classical Physics: Newtonian Mechanics
+      </p>
+    </div>
+    <div class="email">
+      <input type="email" placeholder="Your email" id="" />
+      <button class="Subscribe">Subscribe</button>
+    </div>
+    <div class="info">
+      <div class="info-row1">
+        <p style="font-weight: bold">Company Info</p>
+        <p>About Us</p>
+        <p>Carrier</p>
+        <p>We are hiring</p>
+        <p>Blog</p>
+      </div>
+      <div class="info-row1">
+        <p style="font-weight: bold">Legal</p>
+        <p>About Us</p>
+        <p>Carrier</p>
+        <p>We are hiring</p>
+        <p>Blog</p>
+      </div>
+      <div class="info-row1">
+        <p style="font-weight: bold">Features</p>
+        <p>Business Marketing</p>
+        <p>User Analytic</p>
+        <p>Live chat</p>
+        <p>Unlimited Support</p>
+      </div>
+      <div class="info-row1">
+        <p style="font-weight: bold">Resource</p>
+        <p>IOS & Android</p>
+        <p>Watch a Demo</p>
+        <p>Customers</p>
+        <p>API</p>
+      </div>
+      <div class="info-row1">
+        <p style="font-weight: bold">Get in Touch</p>
+        <div class="contact">
+          <i
+            class="fa fa-phone"
+            style="font-size: 20px; padding-right: 10px"
+          ></i>
+          (480) 555-5103 <br />
+        </div>
+        <div class="contact" style="display: flex">
+          <i
+            class="fa fa-map-marker"
+            style="font-size: 24px; padding-right: 10px"
+          ></i>
+          4517, Washington Ace. Manchester, <br />
+          Kentucky 400053
+        </div>
+        <div class="contact">
+          <i
+            class="fa fa-envelope"
+            style="font-size: 24px; padding-right: 10px"
+          ></i>
+          compute@example.com
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
